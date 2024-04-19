@@ -76,6 +76,8 @@ public class GT4500 implements SpaceShip {
         }
         break;
 
+        //ez a b branch változtatzása
+
       case ALL:
         firingSuccess = secondaryTorpedoStore.fire(1);
         wasPrimaryFiredLast = false;
